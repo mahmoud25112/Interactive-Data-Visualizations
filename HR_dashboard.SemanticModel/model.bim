@@ -1,0 +1,893 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"HR Analytics Data\",\"all measures\",\"HR employee data\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.139.2054.0 (24.12)+334ca1c95b576cc53924655643b0d36f21caac55"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "AutoDetected_379378bd-50cc-48aa-863d-c1cbe1f32bf4",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "EmployeeNumber",
+        "fromTable": "HR employee data",
+        "toColumn": "EmployeeNumber",
+        "toTable": "HR Analytics Data"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "HR Analytics Data",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3e82d114-e198-4f01-b00d-8d6184d745bb",
+            "sourceColumn": "Age",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Attrition",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "62352936-9de2-45c5-b690-087504339e32",
+            "sourceColumn": "Attrition",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "BusinessTravel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9a320d96-fa0a-4737-9fe7-0fbadc588c3b",
+            "sourceColumn": "BusinessTravel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DailyRate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e9bab8a0-e209-41a2-b210-40ce7118c5de",
+            "sourceColumn": "DailyRate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Department",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c86b31b3-62b8-4eb6-957f-90067cba97c6",
+            "sourceColumn": "Department",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DistanceFromHome",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9b1cf715-6c85-4c3b-9c65-313b9868565b",
+            "sourceColumn": "DistanceFromHome",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Education",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "dbe43cd7-1d6c-4faf-a4c4-ed3ef1c36c92",
+            "sourceColumn": "Education",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "EducationField",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0840e20b-1edf-4c0c-afc1-1644eb200e05",
+            "sourceColumn": "EducationField",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "EmployeeCount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d00ab4d0-d1db-4bec-91a9-9b5a6e43ad2a",
+            "sourceColumn": "EmployeeCount",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "EmployeeNumber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a5e519c5-dacc-4724-ba66-aea536e983d7",
+            "sourceColumn": "EmployeeNumber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "EnvironmentSatisfaction",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1cc5ba9c-0325-4909-920f-141ba12343a7",
+            "sourceColumn": "EnvironmentSatisfaction",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Gender",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9737c77d-e45c-45a3-bdf9-60e930544470",
+            "sourceColumn": "Gender",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HourlyRate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e1c2d413-edba-4d5c-84f1-cfc65aeb7562",
+            "sourceColumn": "HourlyRate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "JobInvolvement",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "944b32ca-7452-4f58-a800-d7fc255d8095",
+            "sourceColumn": "JobInvolvement",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "JobLevel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c35e865c-a4e0-47b4-90ec-49d8171017a5",
+            "sourceColumn": "JobLevel",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "JobRole",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "54c001a2-985a-4ed7-81ef-1772ef845080",
+            "sourceColumn": "JobRole",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "JobSatisfaction",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "caa67208-419f-4ee1-8e85-a53247815275",
+            "sourceColumn": "JobSatisfaction",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MaritalStatus",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0ead75c9-0c3c-45a9-a1bd-73509b5c235c",
+            "sourceColumn": "MaritalStatus",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthlyIncome",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ca69805b-c7fd-4e18-8a1c-71e516115a06",
+            "sourceColumn": "MonthlyIncome",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MonthlyRate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "393630cf-1ea8-4f66-b4c9-e0fd5c4e49c2",
+            "sourceColumn": "MonthlyRate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "NumCompaniesWorked",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "46cf32f1-7279-48bd-babd-401cbd84cf93",
+            "sourceColumn": "NumCompaniesWorked",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Over18",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7ac09e8a-230b-4032-9a2b-81d6ad8c399b",
+            "sourceColumn": "Over18",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "OverTime",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ef03f575-270c-4f38-a46c-cdb166d94a9d",
+            "sourceColumn": "OverTime",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PercentSalaryHike",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6c59e833-fcd5-49f6-96a7-2f3d7d7b0524",
+            "sourceColumn": "PercentSalaryHike",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PerformanceRating",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a2fb1545-4ae7-43bd-a91c-6251906c5a3b",
+            "sourceColumn": "PerformanceRating",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RelationshipSatisfaction",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f2b648a9-24f7-4fce-9950-02b5ee372dbb",
+            "sourceColumn": "RelationshipSatisfaction",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "StandardHours",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d35f8439-9ad7-4d42-851c-04e97777f469",
+            "sourceColumn": "StandardHours",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "StockOptionLevel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8c97ec7b-b5f9-4a28-8ba7-941de0ea4bd3",
+            "sourceColumn": "StockOptionLevel",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "TotalWorkingYears",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7da7fbc3-d6d9-4963-a04d-339efa8c6ecc",
+            "sourceColumn": "TotalWorkingYears",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "TrainingTimesLastYear",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9ed361f9-f1e0-4ecd-bdfa-8e5eeb63d328",
+            "sourceColumn": "TrainingTimesLastYear",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "WorkLifeBalance",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ac7d654c-2ba1-4d0f-84bc-3f01b22d301d",
+            "sourceColumn": "WorkLifeBalance",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "YearsAtCompany",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ee022aef-c6f6-4652-b427-593379f730d0",
+            "sourceColumn": "YearsAtCompany",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "YearsInCurrentRole",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f1c65963-7c9e-43ea-b3f3-d6eb784cbd1e",
+            "sourceColumn": "YearsInCurrentRole",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "YearsSinceLastPromotion",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1ce6ea07-4b36-4d09-a773-3ccb0ddef8ee",
+            "sourceColumn": "YearsSinceLastPromotion",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "YearsWithCurrManager",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "638e6488-9553-4fa1-961a-f4b78e9df2eb",
+            "sourceColumn": "YearsWithCurrManager",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Promotion Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f08e20a2-668e-43e7-9fa1-5b67b90f63f4",
+            "sourceColumn": "Promotion Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Service Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3cd4accb-25e6-4dd6-9e53-37ba34fe2237",
+            "sourceColumn": "Service Year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Job Levels",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b0505336-7304-4468-bc3c-0c7b5bdd46cb",
+            "sourceColumn": "Job Levels",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Retreanchment status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e35b3440-12a9-46e8-a2d1-52039bd86d59",
+            "sourceColumn": "Retreanchment status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Distance status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ccc3a4fd-18dc-4aa9-b51a-271278498a48",
+            "sourceColumn": "Distance status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Employee name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c829aa00-5d28-461c-8681-b7ced78ed071",
+            "sourceColumn": "Employee name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Job Satisfaction",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eecff48e-2849-4b67-bf20-b8633b0149ff",
+            "sourceColumn": "Job Satisfaction",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Performance Rating",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "182adc98-fcd9-4624-a1c7-67eb4a180dbc",
+            "sourceColumn": "Performance Rating",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "b5da7a6c-ede2-491e-94d4-f13f4c41420f",
+        "partitions": [
+          {
+            "name": "HR Analytics Data",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\Mahmoud\\Downloads\\my practice-pbi\\Clustered HR Data\\HR Analytics Data.csv\"),[Delimiter=\",\", Columns=1, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", type text}}),",
+                "    #\"Split Column by Delimiter\" = Table.SplitColumn(#\"Changed Type\", \"Column1\", Splitter.SplitTextByDelimiter(\"#(tab)\", QuoteStyle.Csv), {\"Column1.1\", \"Column1.2\", \"Column1.3\", \"Column1.4\", \"Column1.5\", \"Column1.6\", \"Column1.7\", \"Column1.8\", \"Column1.9\", \"Column1.10\", \"Column1.11\", \"Column1.12\", \"Column1.13\", \"Column1.14\", \"Column1.15\", \"Column1.16\", \"Column1.17\", \"Column1.18\", \"Column1.19\", \"Column1.20\", \"Column1.21\", \"Column1.22\", \"Column1.23\", \"Column1.24\", \"Column1.25\", \"Column1.26\", \"Column1.27\", \"Column1.28\", \"Column1.29\", \"Column1.30\", \"Column1.31\", \"Column1.32\", \"Column1.33\", \"Column1.34\", \"Column1.35\"}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Split Column by Delimiter\",{{\"Column1.1\", type text}, {\"Column1.2\", type text}, {\"Column1.3\", type text}, {\"Column1.4\", type text}, {\"Column1.5\", type text}, {\"Column1.6\", type text}, {\"Column1.7\", type text}, {\"Column1.8\", type text}, {\"Column1.9\", type text}, {\"Column1.10\", type text}, {\"Column1.11\", type text}, {\"Column1.12\", type text}, {\"Column1.13\", type text}, {\"Column1.14\", type text}, {\"Column1.15\", type text}, {\"Column1.16\", type text}, {\"Column1.17\", type text}, {\"Column1.18\", type text}, {\"Column1.19\", type text}, {\"Column1.20\", type text}, {\"Column1.21\", type text}, {\"Column1.22\", type text}, {\"Column1.23\", type text}, {\"Column1.24\", type text}, {\"Column1.25\", type text}, {\"Column1.26\", type text}, {\"Column1.27\", type text}, {\"Column1.28\", type text}, {\"Column1.29\", type text}, {\"Column1.30\", type text}, {\"Column1.31\", type text}, {\"Column1.32\", type text}, {\"Column1.33\", type text}, {\"Column1.34\", type text}, {\"Column1.35\", type text}}),",
+                "    #\"Demoted Headers\" = Table.DemoteHeaders(#\"Changed Type1\"),",
+                "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Demoted Headers\",{{\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", type text}, {\"Column4\", type text}, {\"Column5\", type text}, {\"Column6\", type text}, {\"Column7\", type text}, {\"Column8\", type text}, {\"Column9\", type text}, {\"Column10\", type text}, {\"Column11\", type text}, {\"Column12\", type text}, {\"Column13\", type text}, {\"Column14\", type text}, {\"Column15\", type text}, {\"Column16\", type text}, {\"Column17\", type text}, {\"Column18\", type text}, {\"Column19\", type text}, {\"Column20\", type text}, {\"Column21\", type text}, {\"Column22\", type text}, {\"Column23\", type text}, {\"Column24\", type text}, {\"Column25\", type text}, {\"Column26\", type text}, {\"Column27\", type text}, {\"Column28\", type text}, {\"Column29\", type text}, {\"Column30\", type text}, {\"Column31\", type text}, {\"Column32\", type text}, {\"Column33\", type text}, {\"Column34\", type text}, {\"Column35\", type text}}),",
+                "    #\"Demoted Headers1\" = Table.DemoteHeaders(#\"Changed Type2\"),",
+                "    #\"Changed Type3\" = Table.TransformColumnTypes(#\"Demoted Headers1\",{{\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", type text}, {\"Column4\", type text}, {\"Column5\", type text}, {\"Column6\", type text}, {\"Column7\", type text}, {\"Column8\", type text}, {\"Column9\", type text}, {\"Column10\", type text}, {\"Column11\", type text}, {\"Column12\", type text}, {\"Column13\", type text}, {\"Column14\", type text}, {\"Column15\", type text}, {\"Column16\", type text}, {\"Column17\", type text}, {\"Column18\", type text}, {\"Column19\", type text}, {\"Column20\", type text}, {\"Column21\", type text}, {\"Column22\", type text}, {\"Column23\", type text}, {\"Column24\", type text}, {\"Column25\", type text}, {\"Column26\", type text}, {\"Column27\", type text}, {\"Column28\", type text}, {\"Column29\", type text}, {\"Column30\", type text}, {\"Column31\", type text}, {\"Column32\", type text}, {\"Column33\", type text}, {\"Column34\", type text}, {\"Column35\", type text}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type3\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type4\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", type text}, {\"Column4\", type text}, {\"Column5\", type text}, {\"Column6\", type text}, {\"Column7\", type text}, {\"Column8\", type text}, {\"Column9\", type text}, {\"Column10\", type text}, {\"Column11\", type text}, {\"Column12\", type text}, {\"Column13\", type text}, {\"Column14\", type text}, {\"Column15\", type text}, {\"Column16\", type text}, {\"Column17\", type text}, {\"Column18\", type text}, {\"Column19\", type text}, {\"Column20\", type text}, {\"Column21\", type text}, {\"Column22\", type text}, {\"Column23\", type text}, {\"Column24\", type text}, {\"Column25\", type text}, {\"Column26\", type text}, {\"Column27\", type text}, {\"Column28\", type text}, {\"Column29\", type text}, {\"Column30\", type text}, {\"Column31\", type text}, {\"Column32\", type text}, {\"Column33\", type text}, {\"Column34\", type text}, {\"Column35\", type text}}),",
+                "    #\"Promoted Headers1\" = Table.PromoteHeaders(#\"Changed Type4\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type5\" = Table.TransformColumnTypes(#\"Promoted Headers1\",{{\"Column1.1\", type text}, {\"Column1.2\", type text}, {\"Column1.3\", type text}, {\"Column1.4\", type text}, {\"Column1.5\", type text}, {\"Column1.6\", type text}, {\"Column1.7\", type text}, {\"Column1.8\", type text}, {\"Column1.9\", type text}, {\"Column1.10\", type text}, {\"Column1.11\", type text}, {\"Column1.12\", type text}, {\"Column1.13\", type text}, {\"Column1.14\", type text}, {\"Column1.15\", type text}, {\"Column1.16\", type text}, {\"Column1.17\", type text}, {\"Column1.18\", type text}, {\"Column1.19\", type text}, {\"Column1.20\", type text}, {\"Column1.21\", type text}, {\"Column1.22\", type text}, {\"Column1.23\", type text}, {\"Column1.24\", type text}, {\"Column1.25\", type text}, {\"Column1.26\", type text}, {\"Column1.27\", type text}, {\"Column1.28\", type text}, {\"Column1.29\", type text}, {\"Column1.30\", type text}, {\"Column1.31\", type text}, {\"Column1.32\", type text}, {\"Column1.33\", type text}, {\"Column1.34\", type text}, {\"Column1.35\", type text}}),",
+                "    #\"Promoted Headers2\" = Table.PromoteHeaders(#\"Changed Type5\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type6\" = Table.TransformColumnTypes(#\"Promoted Headers2\",{{\"Age\", Int64.Type}, {\"Attrition\", type text}, {\"BusinessTravel\", type text}, {\"DailyRate\", Int64.Type}, {\"Department\", type text}, {\"DistanceFromHome\", Int64.Type}, {\"Education\", Int64.Type}, {\"EducationField\", type text}, {\"EmployeeCount\", Int64.Type}, {\"EmployeeNumber\", Int64.Type}, {\"EnvironmentSatisfaction\", Int64.Type}, {\"Gender\", type text}, {\"HourlyRate\", Int64.Type}, {\"JobInvolvement\", Int64.Type}, {\"JobLevel\", Int64.Type}, {\"JobRole\", type text}, {\"JobSatisfaction\", Int64.Type}, {\"MaritalStatus\", type text}, {\"MonthlyIncome\", Int64.Type}, {\"MonthlyRate\", Int64.Type}, {\"NumCompaniesWorked\", Int64.Type}, {\"Over18\", type text}, {\"OverTime\", type text}, {\"PercentSalaryHike\", Int64.Type}, {\"PerformanceRating\", Int64.Type}, {\"RelationshipSatisfaction\", Int64.Type}, {\"StandardHours\", Int64.Type}, {\"StockOptionLevel\", Int64.Type}, {\"TotalWorkingYears\", Int64.Type}, {\"TrainingTimesLastYear\", Int64.Type}, {\"WorkLifeBalance\", Int64.Type}, {\"YearsAtCompany\", Int64.Type}, {\"YearsInCurrentRole\", Int64.Type}, {\"YearsSinceLastPromotion\", Int64.Type}, {\"YearsWithCurrManager\", Int64.Type}}),",
+                "    #\"Added Conditional Column\" = Table.AddColumn(#\"Changed Type6\", \"Promotion Status\", each if [YearsSinceLastPromotion] >= 10 then \"Due for promotion\" else \"Not Due\"),",
+                "    #\"Filtered Rows\" = Table.SelectRows(#\"Added Conditional Column\", each true),",
+                "    #\"Inserted Merged Column\" = Table.AddColumn(#\"Filtered Rows\", \"Service Year\", each Text.Combine({Text.From([YearsAtCompany], \"en-US\"), \" years\"}), type text),",
+                "    #\"Inserted Merged Column1\" = Table.AddColumn(#\"Inserted Merged Column\", \"Job Levels\", each Text.Combine({\"Level \", Text.From([JobLevel], \"en-US\")}), type text),",
+                "    #\"Added Conditional Column1\" = Table.AddColumn(#\"Inserted Merged Column1\", \"Retreanchment status\", each if [YearsAtCompany] >= 18 then \"Will be retrenched\" else \"On Services\"),",
+                "    #\"Added Conditional Column2\" = Table.AddColumn(#\"Added Conditional Column1\", \"Distance status\", each if [DistanceFromHome] >= 20 then \"Very far\" else if [DistanceFromHome] >= 10 then \"close\" else \"very close\"),",
+                "    #\"Changed Type7\" = Table.TransformColumnTypes(#\"Added Conditional Column2\",{{\"Distance status\", type text}, {\"BusinessTravel\", type text}, {\"Promotion Status\", type text}}),",
+                "    #\"Merged Queries\" = Table.NestedJoin(#\"Changed Type7\", {\"EmployeeNumber\"}, #\"HR employee data\", {\"EmployeeNumber\"}, \"HR employee data\", JoinKind.LeftOuter),",
+                "    #\"Expanded HR employee data\" = Table.ExpandTableColumn(#\"Merged Queries\", \"HR employee data\", {\"Emplyee name\"}, {\"Emplyee name\"}),",
+                "    #\"Added Conditional Column3\" = Table.AddColumn(#\"Expanded HR employee data\", \"Job Satisfaction\", each if [JobSatisfaction] <= 2 then \"High\" else if [JobSatisfaction] = 3 then \"Medium\" else \"Low\"),",
+                "    #\"Added Conditional Column4\" = Table.AddColumn(#\"Added Conditional Column3\", \"Performance Rating\", each if [PerformanceRating] = 3 then \"High Rating\" else \"Low Rating\"),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Added Conditional Column4\",{{\"Emplyee name\", \"Employee name\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "all measures",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "Name"
+          }
+        ],
+        "lineageTag": "2e22ca61-a7b8-4790-9ec4-85f9ae74b388",
+        "measures": [
+          {
+            "name": "Total Emp",
+            "expression": "COUNTROWS('HR Analytics Data')",
+            "formatString": "#,0",
+            "lineageTag": "99ff287b-4a19-4d4e-8a79-ba31b4b5cb88"
+          },
+          {
+            "name": "Male",
+            "expression": "CALCULATE([Total Emp],'HR Analytics Data'[Gender]= \"male\") ",
+            "formatString": "0",
+            "lineageTag": "259bd249-f19e-4445-835b-5c47754e21ff"
+          },
+          {
+            "name": "Female",
+            "expression": "CALCULATE([Total Emp],'HR Analytics Data'[Gender]= \"Female\") ",
+            "formatString": "0",
+            "lineageTag": "42064c11-d57c-4316-b6ce-8981b528d37f"
+          },
+          {
+            "name": "% male",
+            "expression": "DIVIDE([Male],[Total Emp],0)",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "f9a38849-5b2d-44ea-9f9c-5297adabbf71"
+          },
+          {
+            "name": "% Female",
+            "expression": "DIVIDE([Female],[Total Emp],0)",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "74afc115-02e7-437a-baa3-bd3fc66de35a"
+          },
+          {
+            "name": "Due for promotion",
+            "expression": "if(ISBLANK( CALCULATE('all measures'[Total Emp], 'HR Analytics Data'[Promotion Status] = \"Due for promotion\")),0,CALCULATE('all measures'[Total Emp], 'HR Analytics Data'[Promotion Status] = \"Due for promotion\"))",
+            "formatString": "0",
+            "lineageTag": "7daa1da0-0283-446d-903d-c53794c5f303"
+          },
+          {
+            "name": "Not Due",
+            "expression": "CALCULATE('all measures'[Total Emp], 'HR Analytics Data'[Promotion Status] = \"Not Due\")",
+            "formatString": "#,0",
+            "lineageTag": "9a4c309c-da4a-4170-a0a6-4e79f9e77fc3"
+          },
+          {
+            "name": "% Not Due",
+            "expression": "DIVIDE([Not Due],[Total Emp],0)",
+            "formatString": "0.0%;-0.0%;0.0%",
+            "lineageTag": "688a9c6e-5469-4ddd-ba8a-7a8ea4d819cc"
+          },
+          {
+            "name": "% Due for promotion",
+            "expression": "DIVIDE([Due for promotion],[Total Emp],0)",
+            "formatString": "0.0%;-0.0%;0.0%",
+            "lineageTag": "94ddd25b-cd16-4534-8576-157a6910f656"
+          },
+          {
+            "name": "On service",
+            "expression": "CALCULATE('all measures'[Total Emp],'HR Analytics Data'[Retreanchment status]= \"On Services\")",
+            "formatString": "0",
+            "lineageTag": "3ccf5a00-6ebf-4ad3-a55d-f501ad455837"
+          },
+          {
+            "name": "% On service",
+            "expression": "DIVIDE('all measures'[On service], 'all measures'[Total Emp],0)",
+            "formatString": "0.0%;-0.0%;0.0%",
+            "lineageTag": "db8e6bf4-f958-4b63-a3ae-b814575a093a"
+          },
+          {
+            "name": "Will be retrenched",
+            "expression": "if(ISBLANK(CALCULATE('all measures'[Total Emp],'HR Analytics Data'[Retreanchment status]= \"Will be retrenched\")),0,CALCULATE('all measures'[Total Emp],'HR Analytics Data'[Retreanchment status]= \"Will be retrenched\"))",
+            "formatString": "0",
+            "lineageTag": "78f85cb1-3e45-45e8-8c65-0b42b7a723f5"
+          },
+          {
+            "name": "% Will be retrenched",
+            "expression": "DIVIDE('all measures'[Will be retrenched],'all measures'[Total Emp],0)",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "03602cdf-3f1e-4244-805b-240122999aac"
+          },
+          {
+            "name": "High Rated",
+            "expression": "CALCULATE('all measures'[Total Emp],'HR Analytics Data'[Performance Rating]=\"High Rating\")",
+            "formatString": "0",
+            "lineageTag": "1d383452-a632-44a1-a0d1-d7ba58215bd3"
+          },
+          {
+            "name": "Low Rated",
+            "expression": "CALCULATE('all measures'[Total Emp],'HR Analytics Data'[Performance Rating]=\"Low Rating\")",
+            "formatString": "0",
+            "lineageTag": "02667b8d-94f1-4314-a8be-de0fb2966e8e"
+          },
+          {
+            "name": "% High Rated",
+            "expression": "DIVIDE([High Rated],[Total Emp],0)",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "8d59687c-4e6e-470c-9739-72423cf0b2e8"
+          },
+          {
+            "name": "% Low Rated",
+            "expression": "DIVIDE('all measures'[Low Rated],[Total Emp],0)",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "0bfd2d03-9579-4a94-805d-745e3cbd4f8b"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "all measures",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", type text}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"Column1\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "HR employee data",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "EmployeeNumber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ddcd2388-5bea-4133-864e-4eccffd49edb",
+            "sourceColumn": "EmployeeNumber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Employee name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e05a032e-bfa7-48d8-9869-0cf972f9a5cb",
+            "sourceColumn": "Employee name",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "e944990e-bdfc-45fd-974c-5afc2c6a7be3",
+        "partitions": [
+          {
+            "name": "HR employee data",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\Mahmoud\\Downloads\\my practice-pbi\\Clustered HR Data\\HR employee data.csv\"),[Delimiter=\",\", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"EmployeeNumber\", Int64.Type}, {\"Emplyee name\", type text}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"Emplyee name\", \"Employee name\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
