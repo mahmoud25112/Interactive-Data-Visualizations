@@ -5,6 +5,7 @@ Explore data-driven insights with my interactive Power BI dashboards designed to
 ## **Navigation**
 - [HR Analysis Dashboard](#hr-analysis-dashboard)
 - [Sales Dashboard](#sales-dashboard)
+- [Algorithmic Trading Dashboard](#algorithmic-trading-dashboard)
 
 ---
 
@@ -34,5 +35,27 @@ Explore sales team performance and revenue contributions with advanced Power BI 
 - **Sales Dashboard Screenshots**: ![image](https://github.com/user-attachments/assets/23f4d5ce-db7b-4048-aff3-29ec7b736d6b)
 
 
-## **Quick Preview**
-*(Add an image link here if available)*
+
+---
+
+# Algorithmic Trading Dashboard
+
+Monitor and analyze the performance of algorithmic trading strategies with this dynamic Power BI dashboard. The dashboard integrates prediction and momentum algorithms, providing detailed insights and recommendations to optimize trading performance.
+
+## **Interact**
+- **Interact with the Algorithmic Trading Dashboard**: [Click Here](https://app.powerbi.com/view?r=eyJrIjoiYTlmYmY0MTItMTYwMC00ZjRiLTlhNjQtMDBmM2JiZTgxZTgxIiwidCI6IjEyMDEyODFkLTIxNzgtNGE5My05M2E2LTZjNzEwMGI1NzkzYSIsImMiOjF9)
+
+## **Images**
+- **Algorithmic Trading Dashboard Screenshots**: ![image](https://github.com/user-attachments/assets/587c7cbb-5c22-4dde-acec-6ac89ac329f0)
+
+
+---
+
+# Trading Algorithm Best Practices
+
+- **Night Trading:** Avoid using trading algorithms at night due to a significant drop in performance.
+- **Strategy Combination:** Utilize a combination of prediction and momentum algorithms. The momentum algorithm, when paired with short trade options, is more stable and can generate double the profit compared to using prediction alone.
+- **Trade Pairing:** Begin by pairing predictions with short trades as a trial phase, then transition to long trades. Evaluate and compare profits over a quarter-month period to identify the optimal strategy.
+- **Asset Focus:** Prioritize Nasdaq stocks, which offer high yields and stability, generating consistent profits over time.
+- **High-Risk Assets:** While Bitcoin holds the potential for the highest profits, it requires rigorous monitoring. In contrast, the S&P index has shown minimal profit, making it less favorable.
+
