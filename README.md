@@ -46,7 +46,8 @@ Monitor and analyze the performance of algorithmic trading strategies with this 
 - **Interact with the Algorithmic Trading Dashboard**: [Click Here](https://app.powerbi.com/view?r=eyJrIjoiYTlmYmY0MTItMTYwMC00ZjRiLTlhNjQtMDBmM2JiZTgxZTgxIiwidCI6IjEyMDEyODFkLTIxNzgtNGE5My05M2E2LTZjNzEwMGI1NzkzYSIsImMiOjF9)
 
 ## **Images**
-- **Algorithmic Trading Dashboard Screenshots**: ![image](https://github.com/user-attachments/assets/587c7cbb-5c22-4dde-acec-6ac89ac329f0)
+- **Algorithmic Trading Dashboard Screenshots**: ![image](https://github.com/user-attachments/assets/3a55710b-46e9-40eb-b7bc-d19d766e62e6)
+
 
 
 ---
