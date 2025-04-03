@@ -32,8 +32,9 @@ Explore sales team performance and revenue contributions with advanced Power BI 
 - **Interact with the Sales Dashboard**: [Click Here](https://app.powerbi.com/view?r=eyJrIjoiZmRhMTdlZDQtMGY1Ny00NmUyLWE5ZWUtZGUyOWY1Nzk0ZGRkIiwidCI6IjEyMDEyODFkLTIxNzgtNGE5My05M2E2LTZjNzEwMGI1NzkzYSIsImMiOjF9)
 
 ## **Images**
-- **Sales Dashboard Screenshots**: ![image](https://github.com/user-attachments/assets/23f4d5ce-db7b-4048-aff3-29ec7b736d6b)
+- **Sales Dashboard Screenshots**: 
 
+![Screenshot 2025-02-18 110511](https://github.com/user-attachments/assets/c73e78d2-e76c-4877-ac2f-46f9468cdb44)
 
 
 ---
